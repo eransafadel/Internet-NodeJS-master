@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>ex4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="bg-info text-white">
+<div class="container">
+    <div class="row h-100 justify-content-center align-items-center ">
+        <div class="col">
+        <h3> Login </h3>
+            <div><%= msg %></div>
+        <form action="/page1/login" method="post" id="bt_login">
+            <div class="row">
+                <input class="col-lg-12" name="name"  id="name_input">
+            </div>
+            <div class="row">
+                <input class="col-lg-12" name="pass" id="pwd_input">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

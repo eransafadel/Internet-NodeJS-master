@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../public/javascripts/homepage.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs 12 col-md-12">
+            <form action="/page1/login" method="post" id="bt_logout">
+            <div class="row">
+                <input type="submit" value="logout">
+             </div>
+            </form>
+            <h1>Github Search</h1>
+            <h3>User name</h3>
+            <input class="col-lg-12" onfocus="this.value=''" value="" id="text_input">
+            <p> Enter a github user name</p>
+            <button class="btn btn-primary" id="but_search"> Search</button>
+            <button class="btn btn-success" id="but_save"> Save</button>
+            <button class="btn btn-danger" id="but_delete"> Delete</button>
+            <div id = "alert_msg" class="alert alert-danger" style="display: none"></div>
+            <div id = "alert_save" class="alert alert-success" style="display: none"></div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5" style="background-color:lavender;">
+                <div id = "user_name" class="alert alert-info" style="display: none"> </div>
+                <h4> Repositories</h4>
+                <ol style="padding-left: 20px" class="list-group" id="list_repos"></ol>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5" style="background-color: lavender;">
+                <div class="alert alert-info"> Saved </div>
+                <ol style="padding-left: 20px" class="list-group" id="list_save"> </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-5" style="background-color:lavender;">
+                <h4>Followers</h4>
+                <ol style="padding-left: 20px" class="list-group" id="list_follow"></ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

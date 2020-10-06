@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="592d9a28-df44-47c9-9185-7447170a6237" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VKtb6u1nyVw6QVpLa7RXw5x6So" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="592d9a28-df44-47c9-9185-7447170a6237" name="Default Changelist" comment="" />
+      <created>1577013682460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577013682460</updated>
+      <workItem from="1577013683858" duration="5317000" />
+      <workItem from="1577088850578" duration="8966000" />
+      <workItem from="1577104881816" duration="8356000" />
+      <workItem from="1577804630274" duration="8089000" />
+      <workItem from="1577910052172" duration="510000" />
+      <workItem from="1577958030669" duration="373000" />
+      <workItem from="1577959126167" duration="196000" />
+      <workItem from="1599552792598" duration="508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577959133751">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="94" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1577959133751" />
+    <state x="420" y="248" key="FileChooserDialogImpl" timestamp="1577705392519">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1577705392519" />
+    <state width="1259" height="247" key="GridCell.Tab.0.bottom" timestamp="1577959321833">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577959321833" />
+    <state width="1259" height="247" key="GridCell.Tab.0.center" timestamp="1577959321833">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="247" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577959321833" />
+    <state width="1259" height="247" key="GridCell.Tab.0.left" timestamp="1577959321833">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="247" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577959321833" />
+    <state width="1259" height="247" key="GridCell.Tab.0.right" timestamp="1577959321833">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1259" height="247" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577959321833" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/index.html</url>
+          <line>50</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

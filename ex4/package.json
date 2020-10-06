@@ -1,0 +1,23 @@
+{
+  "name": "untitled2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-session-sequelize": "^6.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "latest",
+    "express": "^4.16.4",
+    "express-session": "latest",
+    "morgan": "~1.9.1",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize": "^5.21.3"
+  }
+}

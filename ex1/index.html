@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script>
+        function moreAboutEran() {
+            document.getElementById("col2").style.display = "none";
+            document.getElementById("eran").style.display= "none"
+            document.getElementById("more_about_eran").style.display = "block"
+            document.getElementById("col3").classList.add("col-lg-12");
+            document.getElementById("col1").style.display = "none";
+            document.getElementById("back").style.display = "block";
+        }
+
+        function moreAboutBatya() {
+
+            document.getElementById("col3").style.display = "none";
+            document.getElementById("batya").style.display= "none"
+            document.getElementById("more_about_batya").style.display = "block"
+            document.getElementById("col2").classList.add("col-lg-12");
+            document.getElementById("col1").style.display = "none";
+            document.getElementById("back").style.display = "block";
+        }
+
+        function toShowEverything() {
+            document.getElementById("back").style.display = "none";
+            document.getElementById("col1").style.display = "block";
+            document.getElementById("col2").style.display = "block";
+            document.getElementById("col3").style.display = "block";
+            document.getElementById("more_about_eran").style.display="none"
+            document.getElementById("eran").style.display="block"
+            document.getElementById("more_about_batya").style.display="none"
+            document.getElementById("batya").style.display="block"
+            document.getElementById("col3").classList.remove("col-lg-12");
+            document.getElementById("col3").classList.add("col-lg-4");
+            document.getElementById("col2").classList.remove("col-lg-12");
+            document.getElementById("col2").classList.add("col-lg-4");
+        }
+    </script>
+
+</head>
+
+<body>
+<div id="my_div">
+    <h1 class="text-center">Welcome to the home page </h1>
+    <button type="button" id="back"  onclick="toShowEverything()" style="display: none">Back</button>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4" id="col1">
+            <div style="background-color: aquamarine">
+                <h2>Internet course</h2>
+                <ul>
+                    <li>Year: 2020</li>
+                    <li>Semester: 1</li>
+                    <li>Hour: 12:00-14:00</li>
+                    <li>Location: Lab</li>
+                </ul>
+                <hr>
+                <p>To the
+                    <a href="https://mowgli.hac.ac.il/course/view.php?id=12103" target="_blank"> course website </a></p>
+            </div>
+        </div>
+        <div class=" col-12 col-lg-4" id="col2">
+<!--            <img class="img-fluid" alt = "imgidbatya" src="https://i.ibb.co/ZhjwPr8/me.jpg"/>-->
+            <img src="batya.jpg" class="img-fluid" alt = "imgidbatya"/>
+            <div class=" column">
+                <table>
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Name:</th>
+                        <td>Batya Pollack</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mail:</th>
+                        <td>batyapo@edu.hac.ac.il</td>
+                    </tr>
+                </table>
+            </div>
+            <button type="button" id="batya"  onclick="moreAboutBatya()">More..</button>
+            <div id = "more_about_batya" style="display: none">
+                <p> I like listen to music ,go to sea and eat </p>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-4" id="col3">
+            <img class="img-fluid" alt = "imgideran" src=" eran.jpg"/>
+            <table>
+                <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Name:</th>
+                    <td>Eran Safadel</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mail:</th>
+                    <td>eransa@edu.hac.ac.il</td>
+                </tr>
+            </table>
+            <button type="button" id="eran" onclick="moreAboutEran()">More..</button>
+            <div id = "more_about_eran" style="display: none">
+                <p> I like to swimming,programing and running </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
